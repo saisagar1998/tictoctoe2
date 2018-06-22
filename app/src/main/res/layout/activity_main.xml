@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/tictac"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textoPoup1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text=""></TextView>
+            <TextView
+                android:id="@+id/textoPoup2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:text="@string/text"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/nota0"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota1"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota2"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+
+
+            </LinearLayout>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.08" >
+            </Space>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/nota3"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota4"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota5"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+
+
+            </LinearLayout>
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.02" >
+            </Space>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/nota6"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota7"
+                    android:layout_width="100dp"
+                    android:layout_height="115dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="0.1" >
+                </Space>
+
+                <ImageButton
+                    android:id="@+id/nota8"
+                    android:layout_width="100dp"
+                    android:layout_height="110dp"
+                    android:layout_weight="0"
+                    android:onClick="OnClick"
+                    android:text="0"
+                    app:srcCompat="@drawable/download" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
